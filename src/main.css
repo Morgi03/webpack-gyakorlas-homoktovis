@@ -1,0 +1,22 @@
+body{
+    background-image: url("/images/hatter.png");
+}
+a, a:hover, a:active{
+    text-align: center;
+    color: #ffa500;
+    text-decoration: none;
+}
+#nav{
+    background-color: white;
+    margin: auto;
+    width: 84%;
+}
+#jumbo{
+    background-color: #ffa500;
+    width: 84%;
+    margin: auto;
+}
+h1{
+    color: black;
+    text-align: center;
+}
