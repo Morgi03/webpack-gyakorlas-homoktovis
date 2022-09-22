@@ -2,11 +2,9 @@ body{
     background-image: url("/images/hatter.png");
 }
 a, a:hover, a:active{
-    text-align: center;
-    color: #ffa500;
-    text-decoration: none;
+    color: #ffa500 !important;
 }
-#nav{
+nav{
     background-color: white;
     margin: auto;
     width: 84%;
@@ -15,8 +13,36 @@ a, a:hover, a:active{
     background-color: #ffa500;
     width: 84%;
     margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 h1{
     color: black;
     text-align: center;
+    font-weight: bold !important;
+}
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+#navb{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#fotartalom{
+    background-color: white;
+    height: 100%;
+    width: 84%;
+}
+#bokor{
+    display: block;
+    margin: auto;
 }
