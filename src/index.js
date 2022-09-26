@@ -48,7 +48,7 @@ function szaritotttorlemenyeskatt(){
 }
 function szinvaltas(e){
     let szin = e.currentTarget.value;
-    document.getElementById('h2headermasodikoldal').style.backgroundColor = szin;!important;
+    document.getElementById('h2headermasodikoldal').style.backgroundColor = szin;
 }
 
 function init(){
