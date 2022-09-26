@@ -85,3 +85,12 @@ p{
 .tartalomalign{
     width: 85%;
 }
+figcaption{
+    text-align: center;
+    background-color: white;
+}
+#szin{
+margin: auto;
+display: block;
+margin-top: 2%;
+}
